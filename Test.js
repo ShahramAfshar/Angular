@@ -6,3 +6,15 @@ console.log(names);
 var names2 = ["shahram", "hamed"];
 var tuple;
 tuple = ["shahram", 29];
+var MyColor;
+(function (MyColor) {
+    MyColor[MyColor["green"] = 0] = "green";
+    MyColor[MyColor["blue"] = 1] = "blue";
+    MyColor[MyColor["red"] = 2] = "red";
+})(MyColor || (MyColor = {}));
+console.log(MyColor[0]);
+var harchi;
+harchi = "shahram";
+harchi = 123;
+var list4;
+list4 = ["afshar", 123, true];

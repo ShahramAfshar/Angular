@@ -11,3 +11,19 @@ var tuple:[string,number];
 
 tuple=["shahram",29];
 
+enum MyColor{
+    green,
+    blue,
+    red
+}
+ console.log(MyColor[0]);
+ 
+ var harchi:any;
+ harchi="shahram";
+ harchi=123;
+
+ var list4:any[];
+ list4=["afshar",123,true];
+
+ 
+
