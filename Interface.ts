@@ -10,3 +10,11 @@ let shahram:IUser={
      fname:"afshar",
      age:29
 }
+
+
+function register(user:IUser) {
+    console.log(user);
+    
+}
+
+register(shahram);
