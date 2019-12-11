@@ -18,3 +18,18 @@ function register(user:IUser) {
 }
 
 register(shahram);
+
+interface IUserManager{
+    Register:(user : IUser)=>boolean;
+    Login:(userName:string, password:string)=>void;
+}
+
+class UserManager implements IUserManager{
+    Register(user:IUser){
+return true;
+    }
+
+    Login(userName:string, password:string){
+        
+    }
+}
